@@ -1,0 +1,54 @@
+/* stilos.css - Hoja de estilos en tres tonos de verde */
+
+:root {
+    --verde-claro: #a8e6a3;
+    --verde-medio: #4caf50;
+    --verde-oscuro: #256029;
+}
+
+body {
+    background-color: var(--verde-claro);
+    color: var(--verde-oscuro);
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: var(--verde-medio);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    background-color: #fff;
+    border: 2px solid var(--verde-medio);
+    border-radius: 8px;
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(76, 175, 80, 0.1);
+}
+
+button {
+    background-color: var(--verde-oscuro);
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: var(--verde-medio);
+}
+
+a {
+    color: var(--verde-medio);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--verde-oscuro);
+    text-decoration: underline;
+}
